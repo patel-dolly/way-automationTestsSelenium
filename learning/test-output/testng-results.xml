@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="64064" started-at="2017-04-06T11:26:13Z" finished-at="2017-04-06T11:27:17Z">
+  <suite name="Default suite" duration-ms="45556" started-at="2017-04-13T06:36:55Z" finished-at="2017-04-13T06:37:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="64064" started-at="2017-04-06T11:26:13Z" finished-at="2017-04-06T11:27:17Z">
+    <test name="Default test" duration-ms="45556" started-at="2017-04-13T06:36:55Z" finished-at="2017-04-13T06:37:41Z">
       <class name="com.selenium.learning.TescCasesTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.selenium.learning.TescCasesTest@3532ec19]" name="openBrowser" is-config="true" duration-ms="58535" started-at="2017-04-06T16:56:13Z" finished-at="2017-04-06T16:57:11Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.selenium.learning.TescCasesTest@1bce4f0a]" name="openBrowser" is-config="true" duration-ms="24884" started-at="2017-04-13T12:06:55Z" finished-at="2017-04-13T12:07:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="registration()[pri:0, instance:com.selenium.learning.TescCasesTest@3532ec19]" name="registration" duration-ms="5448" started-at="2017-04-06T16:57:11Z" finished-at="2017-04-06T16:57:17Z">
+        <test-method status="PASS" signature="usersignIntest()[pri:0, instance:com.selenium.learning.TescCasesTest@1bce4f0a]" name="usersignIntest" duration-ms="9351" started-at="2017-04-13T12:07:20Z" finished-at="2017-04-13T12:07:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
+        </test-method> <!-- usersignIntest -->
+        <test-method status="PASS" signature="registrationForm()[pri:1, instance:com.selenium.learning.TescCasesTest@1bce4f0a]" name="registrationForm" duration-ms="5804" started-at="2017-04-13T12:07:35Z" finished-at="2017-04-13T12:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationForm -->
       </class> <!-- com.selenium.learning.TescCasesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

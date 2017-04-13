@@ -22,5 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/Selenium webDriver 3.0/ThirdPartyTools/sikuli-script.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
