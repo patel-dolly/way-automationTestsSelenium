@@ -6,8 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class RegistrationPage {
-	WebDriver driver;
+import com.selenium.utility.BaseClass;
+
+public class RegistrationPage extends BaseClass{
+	//WebDriver driver;
 	@FindBy(name = "name")
 	private WebElement name;
 	@FindBy(name = "phone")

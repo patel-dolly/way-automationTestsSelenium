@@ -10,8 +10,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class RegistrationFormPage {
-	WebDriver driver;
+import com.selenium.utility.BaseClass;
+
+public class RegistrationFormPage extends BaseClass {
+	//WebDriver driver;
 
 	public RegistrationFormPage(WebDriver driver) {
 		this.driver = driver;
