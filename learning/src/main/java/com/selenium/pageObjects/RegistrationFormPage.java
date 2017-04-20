@@ -16,7 +16,7 @@ public class RegistrationFormPage extends BaseClass {
 	//WebDriver driver;
 
 	public RegistrationFormPage(WebDriver driver) {
-		BaseClass.driver = driver;
+		this.driver = driver;
 
 		PageFactory.initElements(driver, this);
 	}
